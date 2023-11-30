@@ -1,6 +1,6 @@
 $(window).on('xpboot', () => {
-  xp.applications.add('minesweeper', () => {
-    var el = $.parseHTML(`<window width="300" height="410" title="Minesweeper">
+  xp.applications.add('minecraft', () => {
+    var el = $.parseHTML(`<window width="300" height="410" title="Minecraft">
       <style>
 iframe[seamless]{
   background-color: transparent;
@@ -26,5 +26,5 @@ iframe[seamless]{
     document.body.appendChild(el[0]);
     $(el).updateWindow();
   });
-    xp.startmenu.add('minesweeper', 'Minesweeper', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGzfdpTmDu4S8oKUMNX8CD8rR4X6gB9Sni7VvugGbQyQ&s');
+    xp.startmenu.add('minecraft', 'Minecraft', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGzfdpTmDu4S8oKUMNX8CD8rR4X6gB9Sni7VvugGbQyQ&s');
 });
