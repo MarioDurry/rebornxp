@@ -22,6 +22,7 @@ var scripts = [
   'system/lambda.js',
   'program/minesweeper.js',
   'program/paint.js',
+  'program/minecraft.js',
   '//xpstore.glitch.me/appstore.js',
   'boot/boot.js'
 ];
