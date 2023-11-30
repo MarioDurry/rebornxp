@@ -20,4 +20,6 @@ $(window).on('xpboot', () => {
   explorer.fileHandlers.add('mp3', (f) => openApp('media-player', ['', f]));
   explorer.fileHandlers.add('mp4', (f) => openApp('media-player', ['', f]));
   explorer.fileHandlers.add('flac', (f) => openApp('media-player', ['', f]));
+    explorer.fileHandlers.add('3gp', (f) => openApp('media-player', ['', f]));
+
 });
